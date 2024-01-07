@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -39,7 +39,7 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h2 {
+li {
   list-style: none;
 }
 input,button{
@@ -111,9 +111,9 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+/* li > * {
   vertical-align: middle;
-}
+} */
 
 .task__checkbox {
   margin: 0 10px;
