@@ -27,7 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task__label, .task__input, .task_new {
+.task__label,
+.task__input,
+.task_new {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -42,7 +44,8 @@ ul {
 li {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 /* Buttons */
@@ -76,7 +79,8 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
-.task__input, .task_new {
+.task__input,
+.task_new {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -88,7 +92,8 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task__input:focus, .task_new:focus {
+.task__input:focus,
+.task_new:focus {
   color: #333;
 }
 
