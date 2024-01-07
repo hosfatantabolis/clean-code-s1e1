@@ -27,7 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task__label, .task__input, .task_new {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -76,7 +76,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.task__input, .task_new {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -88,7 +88,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.task__input:focus, .task_new:focus {
   color: #333;
 }
 
@@ -97,7 +97,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.task_new {
   width: 318px;
 }
 
@@ -135,15 +135,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task__input {
   display: none
 }
 
-ul li.editMode input[type=text] {
+.task_edit .task__input {
   display: inline-block;
   width: 224px
 }
 
-ul li.editMode label {
+.task_edit .task__label {
   display: none;
 }
